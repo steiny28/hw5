@@ -1,0 +1,30 @@
+## Scrabble Game Implementation
+
+## Contact
+Name: Nicole Ramirez
+Section: 045
+Time to Complete: 4 hours
+
+## Description
+The Scrabble game implementation is a simplified version of the popular board game Scrabble. It allows players to drag and drop letter tiles onto a game board, calculate and display the score for the submitted word, and manage the remaining tiles and total score. The game includes functionality to deal new tiles, submit words, and start a new game.
+
+### Features
+- **Board Rendering:** The game board is displayed with special tiles for double word score and double letter score.
+- **Tile Rack Rendering:** A tile rack is rendered with random letter tiles.
+- **Drag-and-Drop Functionality:** Players can drag and drop letter tiles from the rack to the game board.
+- **Score Calculation:** The score is calculated based on the letter tiles placed on the board.
+- **Buttons for Game Control:** Buttons for dealing new tiles, submitting the word, and starting a new game are functional.
+- **Total Score and Remaining Tiles Display:** The total score and the number of remaining tiles are updated and displayed correctly.
+
+#### Major Decisions
+- **Drag-and-Drop:** Implementing drag-and-drop functionality using jQuery UI to allow for intuitive and interactive tile placement.
+- **Board State Management:** Using an array to keep track of the board state to facilitate score calculation and tile placement validation.
+- **Responsive Design:** Ensuring the game interface is responsive and adjusts well to different screen sizes.
+
+### Issues
+- **Board Reset:** The main issue encountered was ensuring the board resets correctly after a word is submitted. Currently, the board does not reset to a blank state after word submission; instead, it clears the tiles on the board while maintaining the board layout.
+- **Learning Outcomes:** Learned about handling state management in web applications and the intricacies of implementing drag-and-drop functionality.
+- **Known Issues:** The board does not reset to a completely blank state after word submission, and the tiles on the board are only cleared without resetting the board layout.
+
+### Extra Credit
+- **Bonus Features:** Implemented an additional feature to display the remaining tiles and total score dynamically.
